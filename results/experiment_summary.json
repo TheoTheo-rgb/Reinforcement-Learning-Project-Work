@@ -1,0 +1,44 @@
+{
+  "hyperparameter_study": {
+    "alpha": {
+      "0.01": {
+        "success": 100.0,
+        "converge": 3619
+      },
+      "0.05": {
+        "success": 100.0,
+        "converge": 4016
+      },
+      "0.1": {
+        "success": 100.0,
+        "converge": 3545
+      },
+      "0.5": {
+        "success": 100.0,
+        "converge": 4101
+      }
+    },
+    "gamma": {
+      "0.9": {
+        "success": 100.0,
+        "converge": 3545
+      },
+      "0.95": {
+        "success": 100.0,
+        "converge": 3545
+      },
+      "0.99": {
+        "success": 100.0,
+        "converge": 3545
+      }
+    }
+  },
+  "exploration_comparison": {
+    "decaying_success_rate": 100.0,
+    "pure_success_rate": 100.0
+  },
+  "slippery_comparison": {
+    "deterministic_success_rate": 100.0,
+    "slippery_success_rate": 87.0
+  }
+}
